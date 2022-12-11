@@ -117,11 +117,11 @@ function LmlEditor(textarea, buttonContainer) {
         this.addButton('wikitext-editor-button-underline', 'Underline', "<u>", "</u>");
         this.addButton('wikitext-editor-button-blockquote', 'Blockquote', "<blockquote>\n", "\n</blockquote>");
         this.addButton('wikitext-editor-button-comment', 'Hidden comment', "<!-- ", " -->");
-        this.addButton('wikitext-editor-button-heading-1', 'Level 1 heading', "\n= ", " =\n");
-        this.addButton('wikitext-editor-button-heading-2', 'Level 2 heading', "\n== ", " ==\n");
-        this.addButton('wikitext-editor-button-heading-3', 'Level 3 heading', "\n=== ", " ===\n");
-        this.addButton('wikitext-editor-button-heading-4', 'Level 4 heading', "\n==== ", " ====\n");
-        this.addButton('wikitext-editor-button-heading-5', 'Level 5 heading', "\n===== ", " =====\n");
+        this.addButton('wikitext-editor-button-cap-a-umlaut', 'Grossbuchstabe A mit Umlaut, "\304", " ");
+        this.addButton('wikitext-editor-button-low-a-umlaut', 'Kleinbuchstabe A mit Umlaut', "\344", "a");
+        this.addButton('wikitext-editor-button-cap-o-umlaut', 'Grossbuchstabe A mit Umlaut', "", "\326");
+        this.addButton('wikitext-editor-button-low-o-umlaut', 'Kleinbuchstabe O mit Umlaut', " ", "\366");
+        this.addButton('wikitext-editor-button-eszett', 'Eszett', "\337", "");
         this.addButton('wikitext-editor-button-preformatted', 'Preformatted', "<pre>", "</pre>");
         this.addButton('wikitext-editor-button-horizontal-rule', 'Horizontal rule', "\n", "----\n");
         this.addButton('wikitext-editor-button-line-break', 'Line break', "\n", "<br>\n");
